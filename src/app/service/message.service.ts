@@ -13,4 +13,8 @@ export class MessageService {
   clear() {
     this.messages = []
   }
+
+  getTop10() {
+    return this.messages.slice(-10)
+  }
 }

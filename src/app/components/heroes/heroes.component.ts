@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { Hero } from '../../model/hero'
 import { HeroService } from '../../service/hero.service'
-import { trigger, state, style, animate, transition } from '@angular/animations'
 
 @Component({
   selector: 'app-heroes',
